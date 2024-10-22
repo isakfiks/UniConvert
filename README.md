@@ -7,6 +7,7 @@ UniConvert is a simple command-line tool for converting between different units 
 - Temperature conversions: Celsius to Fahrenheit and vice versa
 - Length conversions: meters to feet, kilometers to miles, and vice versa
 - Weight conversions: kilograms to pounds and vice versa
+- Easily scalable: adding new units is very simple
 
 ## Installation
 
