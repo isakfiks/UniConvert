@@ -26,10 +26,6 @@ UniConvert is a simple command-line tool for converting between different units 
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-4. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
