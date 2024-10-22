@@ -9,6 +9,8 @@ TEMP_CONVERSIONS = {
 
 LENGTH_CONVERSIONS = {
     "m_to_ft": 3.28084,
+    "m_to_km": 0.001,
+    "km_to_m": 1000,
     "ft_to_m": 0.3048,
     "km_to_mi": 0.621371,
     "mi_to_km": 1.60934,
@@ -35,7 +37,7 @@ def convert_unit(value, from_unit, to_unit, conversion_dict):
     elif f"{to_unit}_to_{from_unit}" in conversion_dict:
         return value / conversion_dict[f"{to_unit}_to_{from_unit}"]
     else:
-        raise ValueError(f"Conversion from {from_unit} to {to_unit} not supported")
+        raise ValueError(f"Conversion from {from_unit} to {to_unit} is currently not supported")
 
 def main():
     # Set up argument parser
